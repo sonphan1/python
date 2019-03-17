@@ -42,5 +42,6 @@ def sockMerchant(n, ar):
 
     return matchCounter
 
-print(sockMerchant(n,ar))
+if __name__ == '__main__':
+    print(sockMerchant(n,ar))
 
